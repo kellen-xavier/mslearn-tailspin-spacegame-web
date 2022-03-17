@@ -1,7 +1,10 @@
+### YamlMime:Yaml
 pool:
-  vmImage: ubuntu-20.04
+  name: local
   demands:
   - npm
+trigger: none
+- '*'
 variables:
   buildConfiguration: Release
 steps:
