@@ -4,7 +4,6 @@ pool:
   demands:
   - npm
 trigger: none
-- '*'
 variables:
   buildConfiguration: Release
 steps:
