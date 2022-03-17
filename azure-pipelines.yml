@@ -1,8 +1,6 @@
 ### YamlMime:Yaml
 pool:
   name: local
-  demands:
-  - npm
 trigger: none
 variables:
   buildConfiguration: Release
