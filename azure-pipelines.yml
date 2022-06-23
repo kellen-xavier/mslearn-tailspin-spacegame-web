@@ -1,4 +1,6 @@
 ### YamlMime:Yaml
+- task: BrowserStackAppUploader@0
+  inputs:
 trigger:
 - '*'
 pool:
