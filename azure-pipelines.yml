@@ -1,7 +1,7 @@
 ### YamlMime:Yaml
-- task: BrowserStackAppUploader@0
+task: BrowserStackAppUploader@0
   inputs:
-trigger:
+- trigger:
 - '*'
 pool:
   vmImage: ubuntu-20.04
